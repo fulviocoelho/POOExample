@@ -2,8 +2,6 @@ import MongoDB from '../repository/MongoDB';
 import IDatabaseInfo from '../interfaces/IDatabaseInfo';
 import Database from '../abstract/Database';
 
-class teste {}
-
 export default class DatabaseFactory {
     private database: MongoDB;
 
