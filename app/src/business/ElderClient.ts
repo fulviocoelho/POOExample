@@ -11,6 +11,6 @@ import IOptions from "../interfaces/IOptions";
         
         this.logs = usefull.createLogs();
 
-        this.logs.info(`Atendimento Preferencial`);
+        this.logs.alert(`Atendimento Preferencial`);
     }
  }

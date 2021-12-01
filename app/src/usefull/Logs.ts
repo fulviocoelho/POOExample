@@ -25,9 +25,9 @@ export default class Logs implements ILogs{
     }
     public alert(alert: unknown) {
         if(Array.isArray(alert)) {
-            this.terminal(clc.yellow('ALERT::', ...alert));
+            this.terminal(clc.yellow('ALERT::'), ...alert);
         } else {
-            this.terminal(clc.yellow('ALERT::', alert));
+            this.terminal(clc.yellow('ALERT::'), alert);
         }
     }
 }
